@@ -22,8 +22,8 @@ tinymce.PluginManager.add('codemirror', function(editor, url) {
 		var win = editor.windowManager.open({
 			title: 'HTML source code',
 			url: url + '/source.html',
-			width: 800,
-			height: 550,
+			width: editor.getParam("code_dialog_width", Math.max(Math.min(tinymce.DOM.getViewPort().w - 50, 800),450)),
+			height: editor.getParam("code_dialog_height", Math.min(tinymce.DOM.getViewPort().h - 200, 550)),
 			resizable : true,
 			maximizable : true,
 			buttons: [

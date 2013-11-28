@@ -9,6 +9,8 @@ License: see LICENSE.txt
 
 Changelog
 =========
+Version 1.3 - xxx-xx-xx
+- Source code edit window respects browser view size (*very* similarly done to the default tinyMCE code plugin) [contribution from Nick Wilde/BriarMoon Design]
 Version 1.2 - 2013-09-04
 - Dirty state of CodeMirror now passed on to TinyMCE.
 - When submitting CodeMirror code to TinyMCE, cursor position is retained.
